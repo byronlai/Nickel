@@ -1,13 +1,10 @@
 package com.byronlai.nickel;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import com.byronlai.nickel.ui.CommandLine;
+
+public class App {
+    public static void main(String[] args) {
+        CommandLine commandLine = new CommandLine();
+        commandLine.run();
     }
 }
